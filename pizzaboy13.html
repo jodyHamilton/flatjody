@@ -10,58 +10,18 @@
 <body>
 <div class="fraggle">
 
-<?php 
-if (isset($_GET[id]))
-  {$fraggle=$_GET[id];}
-else
-{$fraggle=1;}
 
-
-
-$fragglenext=$fraggle + 1;
-if($fraggle >= 50){$fragglenext=1;}
-?>
-<div class="qyjtimage">
-<?php	
-  $imagelink="qyjt.php?id=".$fragglenext;
-  $imagesource="images/qyjt".$fraggle.".jpg";
+	    
+<div class="pizzawide">
   
-  echo '<a href='.$imagelink.' target="contentframe"><img src='.$imagesource.' class="fraggleimage" /></a>' ;  
+  <a href='pizzaboy14.html' target="contentframe"><img src='images/pizzaboy13web.jpg' class="pizzaimage" /></a> 
 
-?>
+
+
+<a href='pizzaboy14.html' target="contentframe" class="arrow">next</a>
+<div class="pizzaboy">
+<br /><a href="PizzaBoyComic.pdf">Download this comic as pdf to view full pages (printable)</a>
 </div>
-<?php
-
-
-$arrowlink="qyjt.php?id=".$fragglenext;
-
-
-
-
-echo '<a href='.$arrowlink.' target="contentframe" class="arrow">next</a>';
-
-
-
-echo '<ul>';
-
-  $i=1;
-  $dotlink = "qyjt.php?id=".$i;
-  echo '<li><br />Section One<br />
-  <a href='.$dotlink.' target="contentframe" class="dot">$i</a></li>';
-  $i=18;
-  $dotlink = "qyjt.php?id=".$i;
-  echo '<li><br />Section Two<br />
-  <a href='.$dotlink.' target="contentframe" class="dot">$i</a></li>';
-  $i=33;
-  $dotlink = "qyjt.php?id=".$i;
-  echo '<li><br />Section Three<br />
-  <a href='.$dotlink.' target="contentframe" class="dot">$i</a></li>';
-  
-
-
-echo '</ul>';
-
-?>
 
 
 

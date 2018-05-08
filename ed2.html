@@ -11,49 +11,31 @@
 
 <div id="albums">
 
-<?php 
-if (isset($_GET[id]))
-  {$fraggle=$_GET[id];}
-else
-{$fraggle=1;}
 
-
-
-$fragglenext=$fraggle + 1;
-if($fraggle >= 3){$fragglenext=1;}
-?>
 <div class="sinkimage">
-<?php	
-  $imagelink="driving.php?id=".$fragglenext;
-  $imagesource="images/driving".$fraggle.$fraggle.".gif";
+
   
-  echo '<a href='.$imagelink.' target="contentframe"><img src='.$imagesource.' class="sinkimage" /></a>' ;  
+  <a href='ed.html' target="contentframe"><img src='images/ed33.gif' class="sinkimage" /></a>
 
-?>
 </div>
 
-<?php
 
 
-$arrowlink="driving.php?id=".$fragglenext;
 
-echo '<a href='.$arrowlink.' target="contentframe" class="arrow">next</a>';
-?>
+<a href='ed.html' target="contentframe" class="arrow">next</a>
 
-<?php
-echo '<ul>';
-for($i=1; $i<=3; $i+=1)
-{
-  $dotlink = "driving.php?id=".$i;
-  echo '<li><a href='.$dotlink.' target="contentframe" class="dot">$i</a></li>';
+<ul>
 
-}
- echo '</ul>';
-?>
+  <li><a href='ed.html' target="contentframe" class="dot">1</a></li>
+  <li><a href='ed1.html' target="contentframe" class="dot">2</a></li>
+  <li><a href='ed2.html' target="contentframe" class="dot">3</a></li>
+
+</ul>
 
 
 
 </div>
+
 
 <!-- Start of StatCounter Code -->
 <script type="text/javascript" language="javascript">
@@ -65,7 +47,6 @@ var sc_security="427e057f";
 
 <script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/frames.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c14.statcounter.com/counter.php?sc_project=1815125&java=0&security=427e057f&invisible=1" alt="free web stats" border="0"></a> </noscript>
 <!-- End of StatCounter Code -->
-
 
 
 
