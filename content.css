@@ -1,4 +1,6 @@
-
+body {
+  background: white;
+}
 #contentframe{
   position: relative;
   float: left;
