@@ -4,26 +4,149 @@ html{
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9em;
+  background: #484845;
+  font-size: 15px;
   color: #336699;
   height: 100%;
+  text-align: center;
   }
+#contentWrapper{
+  position: relative;
+  width: 890px;
+  margin: 0 auto;
+  text-align: left;
+}
+#header{
+  width: 891px;
+  height: 155px;
+  margin-left: 0px;
+  background: url(header_background.jpg) no-repeat top center;
+}
+#header h1{
+  display: none;
+}
+#center{
+  float: left;
+  margin: 0 auto;
+  width: 895px;
+   
+	  height: auto;
+  background: url(center_background.jpg) repeat-y left top;
+}
+#tile{
+  /*float: left;
+  margin: 0 0 0 60px;*/
+  position: relative;
+  left: 60px;
+ float: left;
+  width: 850px;
+  background: url(tile_background.jpg) repeat-y left top;
+}
+#footer{
+ position: relative;
+   display: inline;
+  float: left;
+  height: 100px;
+  width: 891px;
+  background: url(footer_background.gif) no-repeat top center;
+  margin: -11px 0 0 2px;
+  z-index: 50;
+}
+#mainColumn{
+  float: left;
+  width: 550px;
+}
+#secondaryColumn{
+  float: left;
+  width: 230px;
+  margin-left: 10px;
+}
+.box{
+  float: left;
+    position: relative;
+  border: 2px dotted #6633cc;
+  margin: 5px 0;
+  overflow: auto;
+  padding: 5px;
+  background: white;
+}
+#text .box{
+  width: 220px;
+  height: 180px;
+    overflow-x: hidden;
+	overflow-y: auto;
+  
+}
+#text .box ul, #text .text{
+  
+  display: block;
+  height: 180px;
+  width: 210px;
+ 
+  
+}
+* html #text .box ul, #text .text{
+  height: auto;
+  overflow: hidden;
+  width: 205px;
+}
+
+#email .box{
+  width: 230px;
+  height: 180px;
+  float: right;
+  border-color: #CC3333;
+  background: transparent;
+}
+#content .box{
+  width: 476px;
+  height: 400px;
+  float: right;
+  border-color: #336699;
+  overflow: hidden;
+}
+#download .box{
+  height: 202px;
+  width: 200px;
+  border-color: #CC3333;
+}
+#radio .box{
+  border-color: #339933;
+  height: 480px;
+  overflow: hidden;
+  width: 200px;
+  background: transparent;
+}
+#content ul{
+  position: relative;
+  width: 200px;
+  margin: 0 0 10px 60px;
+  text-align: center;
+  display: inline;
+}
+#text ul.menu{
+  width: 50px;
+  text-align: right;
+  margin: 5px;
+}
 
 ul{
   list-style: none;
   float: left;
-  margin: 0 0 0 5px;
+  margin: 0;
   padding: 0;
   
 }
 
 li {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.8em;
   color: #6633CC;
+  margin-left: 5px;
   text-indent: -5px;
 }
-
+p{
+  font-size: 0.8em;
+}
 a{
 text-decoration: none;
 
@@ -42,16 +165,6 @@ a:active{
   color: #336699;
 }
 
-iframe{
-  border-style: dotted;
-  border-color: #6633CC;
-  float: left;
-  background-color: #ffffff;
-}
-
-h1{
-  font-size: 1em;
-}
 
 input{
   color: #336699;
@@ -64,83 +177,195 @@ li.heading{
 
 }
 li.entry{
-  
 
 }
 
-#all{
- background: url(contentbackground.jpg) repeat center;
- height: 100%;
- 
 
-}
-
-#content{
-  position: relative;
-  margin: 0px auto 0px auto;
-  width: 800px;
-  
-  
-}
-
-
-#forsale{
-  position: relative;
+#content .fraggle ul, #content #albums ul{
+  width: 40px;
   float: left;
-  width: 570px;
-
-
-}
-#forsale ul{
-  width: 100px;
-  height: 220px;
-
-}
-#forsale iframe{
-  width: 460px;
-  height: 200px;
-  border-color: #339933;
-}
-
-
-
-#downloadframe{
-  position: relative;
-  float: left;
-  
-}
-
-#downloadframe iframe{
-  width: 560px;
-  height: 140px;
-  border-color: #CC3333;
-  overflow: hidden;
-}
-
-#links{
-  position: relative;
-  float: right;
-  margin: 10px -4px 0 0;
-  width: 220px;
-
-
-}
-
-#links iframe{
-  float: right;
-  width: 220px;
-  height: 310px;
-
-}
-#header{
-  width: 800px;
-  height: 2em;
-  padding-top: 5px;
-}
-#header h1{
-  text-align: center;
-  font-size: 1.5em;
-  font-spacing: 2em;
+  text-align: left;
   margin: 0;
-  padding: 0;
 }
+
+
+.fraggle{
+  height: 375px;
+  width: 473px;
+  margin: 0 auto 0 auto;
+}
+
+#albums{
+  height: 375px;
+  width: 473px;
+  margin: 0;
+ 
+}
+
+.pizzaboy{
+  position: relative;
+  height: 200px;
+  width: 80px;
+  
+
+}
+
+.fraggle ul{
+  position: relative;
+  width: 50px;
+  height: 375px;
+  float: left;
+  
+
+}
+.fraggle li{
+  float: left;
+  margin-left: 20px;
+
+}
+#albums ul{
+  width: 50px;
+  height: 375px;
+  float: left;
+
+}
+#albums li{
+  float: left;
+  margin: 50px 0 0 20px;
+  
+
+}
+
+a.arrow{
+  display: block;
+  float: left;
+  text-indent: -100em;
+  overflow: hidden;
+  background: url(images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 55px;
+  width: 80px;
+  margin: auto 15px auto 0;
+}
+
+a.arrow:link{
+background: url(images/arrow.jpg);
+}
+a.arrow:hover{
+background: url(images/arrowred.jpg);
+}
+
+a.dot{
+  display: block;
+  float: left;
+  text-indent: -100em;
+  overflow: hidden;
+  background: url(images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 26px;
+  width: 26px;
+  margin-top: 10px;
+  margin-right: 5px;
+
+}
+
+a.dot:link{
+  background: url(images/dotred.jpg);
+}
+
+a.dot:visited{
+    background: url(images/dotblue.jpg);
+}
+a.dot:hover{
+  background: url(images/dot.jpg);
+}
+
+a.dot:active{
+    background: url(images/dotpurple.jpg);
+}
+
+
+
+
+img{
+  position: relative;
+  float: right;
+  border: none;
+  margin: auto;
+  max-height: 365px;
+  max-width: 365px;
+  
+}
+* html img{
+  width: 365px;
+}
+
+.qyjtimage img{
+  width: auto;
+}
+.pizzatall img{
+  height: 365px;
+  width: auto;
+  
+}
+.pizzawide img{
+  width: 365px;
+  height: auto;
+  
+}
+.pizzaboy{
+  float: left;
+  margin-top: 100px;
+  margin-left: -80px;
+}
+.sinkimage{
+  float: right;
+  width: 365px;
+}
+
+img.sinkimage{
+  height: 365px;
+  
+  margin: -5px 12px 0 0;
+}
+
+#text .box img{
+  position: relative;
+  margin: 0;
+  float: right;
+  width: 100px;
+   
+}
+#text .box{
+  float: left;
+  position: relative;
+}
+
+#text p{
+  margin: 0 0 8px 0;
+   
+}
+
+textarea.message{
+  width: 90%;
+  height: 6em;
+
+}
+input.name{
+  width: 90%;
+
+}
+
+input.email{
+  width: 70%;
+
+}
+input.submit{
+  width: 20%;
+  background-color: #ffffff;
+}
+
+
+
