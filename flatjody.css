@@ -368,14 +368,13 @@ input.submit{
 
 iframe{
   float: left;
+  border: none;
   background-color: #ffffff;
   width: 100%;
   height: 100%;
 }
 
-iframe body{
-  background-color: #ffffff;
-}
+
 
 
 
