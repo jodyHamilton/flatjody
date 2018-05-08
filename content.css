@@ -1,0 +1,166 @@
+
+#contentframe{
+  position: relative;
+  float: left;
+  height: 400px;
+  width: 563px;
+  margin: 0px 10px 0 0;
+
+}
+
+#contentframe iframe{
+  float: right;
+  width: 473px;
+  height: 375px;
+  border-color: #336699;
+  background: #ffffff;
+  
+
+}
+
+#contentframe ul{
+  width: 70px;
+  float: left;
+}
+
+
+.fraggle{
+  height: 375px;
+  width: 473px;
+  margin: 0 auto 0 auto;
+}
+
+#albums{
+  height: 375px;
+  width: 473px;
+  margin: 0;
+ 
+}
+
+.pizzaboy{
+  position: relative;
+  height: 200px;
+  width: 80px;
+  
+
+}
+
+.fraggle ul{
+  position: relative;
+  width: 50px;
+  height: 375px;
+  float: left;
+
+}
+.fraggle li{
+  float: left;
+  margin-left: 20px;
+
+}
+#albums ul{
+  width: 50px;
+  height: 375px;
+  float: left;
+
+}
+#albums li{
+  float: left;
+  margin: 50px 0 0 20px;
+  
+
+}
+
+a.arrow{
+  display: block;
+  float: left;
+  text-indent: -100em;
+  overflow: hidden;
+  background: url(images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 55px;
+  width: 80px;
+  margin: auto 15px auto 0;
+}
+
+a.arrow:link{
+background: url(images/arrow.jpg);
+}
+a.arrow:hover{
+background: url(images/arrowred.jpg);
+}
+
+a.dot{
+  display: block;
+  float: left;
+  text-indent: -100em;
+  overflow: hidden;
+  background: url(images/dot.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 26px;
+  width: 26px;
+  margin-top: 10px;
+  margin-right: 5px;
+
+}
+
+a.dot:link{
+  background: url(images/dotred.jpg);
+}
+
+a.dot:visited{
+    background: url(images/dotblue.jpg);
+}
+a.dot:hover{
+  background: url(images/dot.jpg);
+}
+
+a.dot:active{
+    background: url(images/dotpurple.jpg);
+}
+
+
+
+
+img{
+  position: relative;
+  float: right;
+  border-style: none;
+  margin: auto;
+  max-height: 365px;
+  max-width: 365px;
+  
+}
+*html img{
+  width: 365px;
+}
+
+.qyjtimage img{
+  width: auto;
+}
+.pizzatall img{
+  height: 365px;
+  width: auto;
+  padding: auto;
+}
+.pizzawide img{
+  width: 365px;
+  height: auto;
+  padding: auto;
+}
+.pizzaboy{
+  float: left;
+  margin-top: 100px;
+  margin-left: -80px;
+}
+.sinkimage{
+  float: right;
+  width: 365px;
+}
+
+img.sinkimage{
+  height: 365px;
+  
+  margin: -5px 12px 0 0;
+}

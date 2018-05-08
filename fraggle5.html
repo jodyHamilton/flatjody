@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+<TITLE>fraggle5</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<!-- ImageReady Preload Script (fraggle5.psd) -->
+<SCRIPT TYPE="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		fraggle5_Layer_2_over = newImage("images/fraggle5_Layer-2-over.gif");
+		fraggle5_Layer_2_down = newImage("images/fraggle5_Layer-2-down.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 ONLOAD="preloadImages();">
+<!-- ImageReady Slices (fraggle5.psd) -->
+<TABLE WIDTH=450 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD COLSPAN=3>
+			<IMG SRC="images/fraggle5_01.gif" WIDTH=450 HEIGHT=350 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/fraggle5_02.gif" WIDTH=221 HEIGHT=36 ALT=""></TD>
+		<TD>
+			<A HREF="/fraggle6.html" TARGET="_top"
+				ONMOUSEOVER="changeImages('fraggle5_Layer_2', 'images/fraggle5_Layer-2-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('fraggle5_Layer_2', 'images/fraggle5_Layer-2.gif'); return true;"
+				ONMOUSEDOWN="changeImages('fraggle5_Layer_2', 'images/fraggle5_Layer-2-down.gif'); return true;"
+				ONMOUSEUP="changeImages('fraggle5_Layer_2', 'images/fraggle5_Layer-2-over.gif'); return true;">
+				<IMG NAME="fraggle5_Layer_2" SRC="images/fraggle5_Layer-2.gif" WIDTH=205 HEIGHT=22 BORDER=0 ALT=""></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/fraggle5_04.gif" WIDTH=24 HEIGHT=36 ALT=""></TD>
+	</TR>
+	<TR>
+		<TD>
+			<IMG SRC="images/fraggle5_05.gif" WIDTH=205 HEIGHT=14 ALT=""></TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
