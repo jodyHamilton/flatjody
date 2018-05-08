@@ -367,5 +367,10 @@ input.submit{
   background-color: #ffffff;
 }
 
+iframe{
+  float: left;
+  background-color: #ffffff;
+}
+
 
 
